@@ -1,12 +1,12 @@
 body {
   background-image: url('../images/trivia-back.jpg');
-  background-size: 80%;
+  background-size: cover;
 }
 .trivia-display {
-  background-color: black;
-  width: 100%;
+  background-color: rgba(0, 0, 0, 0.63);
+  text-align: center; 
 }
 h1 {
-  font-size: 1.5em;
+  font-size: 2.5em;
   color: white;
 }
