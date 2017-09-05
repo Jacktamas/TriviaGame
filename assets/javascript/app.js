@@ -158,7 +158,6 @@ var game = {
     $('#subwrapper').append("<h3>Incorrect Answers: "+this.incorrect+"</h3>");
     // display all the Unanswered questions
     $('#subwrapper').append("<h3>Unanswered: "+(questions.length-(this.incorrect+this.correct))+"<h3>");
-    $('#subwrapper').append('<img src="assets/images/win-gif.gif" class="win-img">')
   },
   winAudio: function(){
     var src = 'assets/audio/game-done.mp3';
